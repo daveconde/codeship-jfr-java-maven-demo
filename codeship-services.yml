@@ -1,4 +1,10 @@
+testing:
+  image: alpine:latest
+  volumes: 
+    - .:/workspace
+
 jenkinsfileRunner:
   image: jenkins4eval/jenkinsfile-runner:maven
   volumes: 
     - .:/workspace
+    
