@@ -1,3 +1,6 @@
+- name: Testing
+  service: testing
+  command: ls -la
 - name: Jenkinsfile
   service: jenkinsfileRunner
   command: -f /workspace
